@@ -65,12 +65,13 @@ link...
 ## 6. Flow chart dari algoritma yang digunakan di dalam game 
 
 ```mermaid
-erDiagram
-    RUJAK ||--o{ SAYUR : tersusun
-    PEMBELI ||--|{ RUJAK : beli
+flowchart TD;
+    A[Start Game] --> B[Display Main Menu];
+    B --> C[Player Chooses];
+    C --> D[Initialize Game];
+    D --> E[Main Game Loop While Player];
+    E --> F[Game Over];
 ```
-
-
 
 ## 7. Link Demo Game 
 
