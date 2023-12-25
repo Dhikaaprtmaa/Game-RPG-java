@@ -1,11 +1,11 @@
 # Game-RPG-java
 
-## 1.1 Latar Belakang
+## 1 Latar Belakang
 
 Latar belakang membuat game ini slain sebagai bagian penugasan dari mata kuliah praktikum dasar pemrograman, saya membuat game ini karena yang pertama saya menyukai game yang bertema kan rpg
 dari kesukaan saya bermain game rpg membuat saya menjadi penasaran dan ingin membuat sebuah program game rpg sendiri
 
-## 1.2 Deskripsi dan alur cerita dari game 
+## 2 Deskripsi dan alur cerita dari game 
 
 **Judul Game: "RealmSaga: Chronicles of Destiny"**
 
@@ -28,7 +28,7 @@ Petualangan mencapai puncaknya ketika pemain harus menghadapi bos akhir, musuh y
 4. **Tantangan Bos:** Pertarungan terakhir melawan bos yang menantang.
 5. **Grafis Sederhana:** Antarmuka pengguna yang bersahaja dengan fokus pada gameplay.
 
-## 1.3 Branding Game
+## 3 Branding Game
 
 A. Judul Game
 " RealmSaga: Chronicles of Destiny "
@@ -43,4 +43,17 @@ C. Genre
 Game ini bergenre RPG (role-playing game)
 RPG, atau Role-Playing Game, adalah genre game yang memungkinkan pemain mengambil peran karakter fiksi di dalam dunia yang diciptakan. Beberapa elemen umum dari game RPG melibatkan pengembangan karakter, perjalanan, dan seringkali cerita yang mendalam.
 
-## 1.4 User Story
+## 4 User Story
+
+Sebagai | Saya bisa | Sehingga | Prioritas
+---|---|---|---
+Pemain |ingin memiliki tutorial yang terperinci untuk memahami kontrol permainan, karakteristik dasar, dan fitur-fitur utama |agar saya dapat dengan cepat memulai permainan  | ⭐⭐⭐
+Pemain |menggerakan karakter |karakter dapat berjalan sesuai yang saya mau | ⭐⭐⭐⭐
+Pemain |mendapatkan narasi cerita yang mendalam dan penuh nuansa dalam permainan |dapat terhubung emosional dengan karakter dan dunia dalam game | ⭐⭐⭐⭐
+Pemain | berhadapan dengan berbagai musuh yang memiliki tingkat kesulitan yang meningkat |dapat menikmati game dengan pertarungan yang memiliki kesulitan semakin tinggi | ⭐⭐⭐⭐
+Pemain |memiliki peta dunia yang luas dengan berbagai tempat untuk dijelajahi |dapat mengeksplorasi peta | ⭐⭐⭐
+Pemain |dapat menyerang musuh |dapat mengalahkan semua musuh | ⭐⭐⭐⭐⭐
+Pemain |mendapatkan senjata |dapat mengalahkan semua musuh | ⭐⭐⭐⭐
+Pemain |mendapatkan skill atau kemampuan baru |meningkatkan kemampuan karakter | ⭐⭐⭐
+Pemain | melihat grafis yang memukau, desain karakter yang indah, dan efek visual yang menakjubkan |sehingga pengalaman bermain menjadi lebih menarik | ⭐⭐⭐
+Pemain |ingin memiliki pilihan pengembangan karakter yang beragam, termasuk pemilihan keterampilan, senjata, dan atribut |meningkatkan gaya bermain pemain | ⭐⭐⭐⭐
