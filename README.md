@@ -82,3 +82,30 @@ flowchart TD;
 (https://github.com/Dhikaaprtmaa/Game-RPG-java/blob/main/UltimateRPG.java)
 
 ## 9. Prinsip Dasar Pemrograman 
+
+A. Variable 
+Dalam game ini, variabel digunakan untuk menyimpan informasi seperti nama karakter, tingkat pemain, kesehatan, kerusakan, dan banyak lagi.
+
+B. Data Type
+Data type digunakan untuk mendefinisikan jenis nilai yang dapat disimpan dalam variabel. Dalam game Anda, Anda mungkin menggunakan tipe data seperti int, String, atau bahkan membuat tipe data kustom seperti Weapon atau Enemy.
+
+C. Operator
+Operator digunakan untuk melakukan operasi pada variabel atau nilai. Contohnya, operasi matematika untuk menghitung kerusakan saat pemain menyerang.
+
+D. Boolean 
+Tipe data boolean dan operator boolean sangat penting dalam membuat keputusan logis dalam game. Misalnya, Anda dapat menggunakan boolean untuk mengecek apakah pemain masih hidup atau apakah musuh sudah mati.
+
+E. Conditional : if/else/switch
+Pernyataan kondisional digunakan untuk mengambil keputusan berdasarkan kondisi tertentu. Dalam game Anda, Anda mungkin menggunakan ini untuk mengecek apakah pemain menyerang musuh atau apakah pemain perlu beristirahat.
+
+F. Looping : for/While
+Perulangan digunakan untuk menjalankan serangkaian perintah berulang kali. Dalam game, Anda dapat menggunakan perulangan untuk mengatur iterasi melalui musuh, memproses loot, atau menggerakkan karakter.
+
+G. Array
+Array digunakan untuk menyimpan sejumlah nilai dalam satu variabel. Dalam game, Anda mungkin menggunakan array untuk menyimpan musuh, senjata, atau item lainnya.
+
+H. Method 
+Method atau fungsi digunakan untuk mengorganisir dan mengelompokkan blok kode yang dapat dipanggil. Dalam game, Anda mungkin memiliki metode untuk menyerang, beristirahat, atau menampilkan statistik pemain.
+
+I. Class
+Class digunakan untuk mengorganisir kode ke dalam entitas yang terkait. Dalam game Anda, Anda mungkin memiliki kelas untuk pemain, musuh, senjata, dan sebagainya.
