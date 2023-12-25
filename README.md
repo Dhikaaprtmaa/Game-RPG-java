@@ -192,3 +192,30 @@ Pilihan Aksi Pengguna:
 Pemain diberikan opsi untuk memilih aksi (serang, serangan khusus, istirahat, gunakan potion) melalui pernyataan kondisional (switch).
 Setiap pilihan mengarah pada metode yang sesuai dalam class Player.
 Serangan Pemain:
+Saat pemain memilih untuk menyerang, metode attack atau specialAttack dijalankan, yang mencetak pesan serangan, menghitung damage, dan mengurangi kesehatan musuh.
+Jika kesehatan musuh habis, pemain mendapatkan experience, bisa naik level, mendapatkan loot, dan musuh baru dibuat.
+Serangan Musuh:
+
+Setelah pemain melakukan aksi, musuh menyerang balik (saat masih hidup) menggunakan metode attack.
+Pemilihan musuh yang diserang dilakukan secara acak dengan bantuan metode selectRandomEnemy.
+Manajemen Status:
+
+Setelah setiap aksi, status pemain dan musuh diperbarui, termasuk kesehatan, experience, level, dan lainnya.
+Ada pula mekanisme istirahat dan penggunaan potion yang memengaruhi kesehatan pemain.
+Pengecekan Kondisi Akhir:
+
+Pertarungan berlanjut sampai kesehatan pemain habis atau semua musuh dikalahkan.
+Hasil pertarungan (kemenangan atau kekalahan) dicetak setelah keluar dari loop.
+Generasi Musuh Acak:
+
+Musuh baru dihasilkan secara acak dengan metode generateRandomEnemy() setelah pemain mengalahkan musuh sebelumnya.
+Pesan Output:
+
+Selama pertarungan, pesan-pesan yang memberikan informasi mengenai serangan, status, loot, dan hasil pertarungan dicetak di layar.
+OOP dan Struktur Program:
+
+Algoritma didesain dengan menggunakan konsep OOP, memanfaatkan class Character, Player, Enemy, dan Weapon untuk menyusun struktur program.
+Kesalahan dan Penanganan Eksepsi:
+
+Beberapa kondisi kesalahan dipertimbangkan, seperti ketika pemain mencoba menyerang non-musuh atau pemilihan aksi yang tidak valid.
+
