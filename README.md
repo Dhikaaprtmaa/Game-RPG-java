@@ -64,23 +64,61 @@ link...
 
 ## 6. Flow chart dari algoritma yang digunakan di dalam game 
 
-erDiagram
-    CUSTOMER ||--o{ ORDER : places
-    CUSTOMER {
-        string name
-        string custNumber
-        string sector
-    }
-    ORDER ||--|{ LINE-ITEM : contains
-    ORDER {
-        int orderNumber
-        string deliveryAddress
-    }
-    LINE-ITEM {
-        string productCode
-        int quantity
-        float pricePerUnit
-    }
++---------------------+
+| Start Game          |
++---------------------+
+          |
+          v
++---------------------+
+| Display Main Menu   |
+|   - Start New Game  |
+|   - Load Game       |
+|   - Exit Game       |
++---------------------+
+          |
+          v
++---------------------+
+| Player Chooses:     |
+|   - Start New Game  |
++---------------------+
+          |
+          v
++---------------------+
+| Initialize Game:    |
+|   - Create Player   |
+|   - Set Initial     |
+|     Parameters      |
++---------------------+
+          |
+          v
++---------------------+
+| Main Game Loop      |
+| While Player Alive: |
+|   - Display Stats   |
+|   - Display Options |
+|   - Player Chooses  |
+|     Action          |
+|   - Process Action  |
+|   - Enemy Turn      |
+|   - Check Game Over |
++---------------------+
+          |
+          v
++---------------------+
+| Game Over           |
+|   - Display Result  |
+|   - Save Progress   |
+|   - Return to Main  |
+|     Menu            |
++---------------------+
+          |
+          v
++---------------------+
+| Exit Game           |
++---------------------+
+| End                 |
++---------------------+
+
 
 
 ## 7. Link Demo Game 
