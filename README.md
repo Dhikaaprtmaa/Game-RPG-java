@@ -64,10 +64,11 @@ link...
 
 ## 6. Flow chart dari algoritma yang digunakan di dalam game 
 
+```mermaid
 erDiagram
     RUJAK ||--o{ SAYUR : tersusun
     PEMBELI ||--|{ RUJAK : beli
-
+```
 
 
 
