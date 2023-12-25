@@ -64,60 +64,10 @@ link...
 
 ## 6. Flow chart dari algoritma yang digunakan di dalam game 
 
-+---------------------+
-| Start Game          |
-+---------------------+
-          |
-          v
-+---------------------+
-| Display Main Menu   |
-|   - Start New Game  |
-|   - Load Game       |
-|   - Exit Game       |
-+---------------------+
-          |
-          v
-+---------------------+
-| Player Chooses:     |
-|   - Start New Game  |
-+---------------------+
-          |
-          v
-+---------------------+
-| Initialize Game:    |
-|   - Create Player   |
-|   - Set Initial     |
-|     Parameters      |
-+---------------------+
-          |
-          v
-+---------------------+
-| Main Game Loop      |
-| While Player Alive: |
-|   - Display Stats   |
-|   - Display Options |
-|   - Player Chooses  |
-|     Action          |
-|   - Process Action  |
-|   - Enemy Turn      |
-|   - Check Game Over |
-+---------------------+
-          |
-          v
-+---------------------+
-| Game Over           |
-|   - Display Result  |
-|   - Save Progress   |
-|   - Return to Main  |
-|     Menu            |
-+---------------------+
-          |
-          v
-+---------------------+
-| Exit Game           |
-+---------------------+
-| End                 |
-+---------------------+
+erDiagram
+    RUJAK ||--o{ SAYUR : tersusun
+    PEMBELI ||--|{ RUJAK : beli
+
 
 
 
