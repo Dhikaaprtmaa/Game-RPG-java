@@ -60,7 +60,7 @@ Pemain |ingin memiliki pilihan pengembangan karakter yang beragam, termasuk pemi
 
 ## 5. Desain user interface
 
-link...
+(https://ibb.co/C5qDtYc)
 
 ## 6. Flow chart dari algoritma yang digunakan di dalam game 
 
