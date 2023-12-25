@@ -79,6 +79,6 @@ link...
 
 ## 8. Kode Pemrograman Game 
 
-link...
+[UltimateRPG.java](https://github.com/Dhikaaprtmaa/Game-RPG-java/blob/main/UltimateRPG.java)https://github.com/Dhikaaprtmaa/Game-RPG-java/blob/main/UltimateRPG.java
 
 ## 9. Prinsip Dasar Pemrograman 
