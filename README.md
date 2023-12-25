@@ -7,7 +7,7 @@ dari kesukaan saya bermain game rpg membuat saya menjadi penasaran dan ingin mem
 
 ## 1.2 Deskripsi dan alur cerita dari game 
 
-**Judul Game: "Ultimate RPG"**
+**Judul Game: "RealmSaga: Chronicles of Destiny"**
 
 **Deskripsi Game:**
 "Enhanced RPG" adalah permainan peran (RPG) sederhana yang menempatkan pemain dalam dunia fantasi yang penuh petualangan. Pemain akan mengambil peran sebagai seorang pahlawan yang memulai petualangan untuk mengalahkan berbagai musuh, meningkatkan level, dan mengumpulkan harta. Dengan senjata, sihir, dan keterampilan khusus, pemain harus melalui berbagai tantangan untuk mencapai tujuannya.
@@ -28,3 +28,19 @@ Petualangan mencapai puncaknya ketika pemain harus menghadapi bos akhir, musuh y
 4. **Tantangan Bos:** Pertarungan terakhir melawan bos yang menantang.
 5. **Grafis Sederhana:** Antarmuka pengguna yang bersahaja dengan fokus pada gameplay.
 
+## 1.3 Branding Game
+
+A. Judul Game
+" RealmSaga: Chronicles of Destiny "
+"RealmSaga: Chronicles of Destiny" adalah dunia fantastis yang mengajak pemain untuk menjelajahi dunia yang penuh dengan misteri, kekuatan magis, dan pertempuran epik. Dengan grafis yang memukau dan cerita yang mendalam, game ini memberikan pengalaman RPG yang tak terlupakan, membangun legenda melalui pilihan pemain dan petualangan yang mengasyikkan.
+
+B. Deskripsi Target Pengguna
+Khususnya, pemain yang berada dalam kelompok usia remaja hingga dewasa muda.
+Individu yang mencari game yang tidak hanya menawarkan gameplay yang menyenangkan, tetapi juga cerita yang mendalam dan pengalaman yang bersifat emosional.
+Individu yang menyukai dan aktif memainkan permainan role-playing game (RPG), terutama yang menawarkan elemen dunia fantasi dan petualangan epik.
+
+C. Genre
+Game ini bergenre RPG (role-playing game)
+RPG, atau Role-Playing Game, adalah genre game yang memungkinkan pemain mengambil peran karakter fiksi di dalam dunia yang diciptakan. Beberapa elemen umum dari game RPG melibatkan pengembangan karakter, perjalanan, dan seringkali cerita yang mendalam.
+
+## 1.4 User Story
