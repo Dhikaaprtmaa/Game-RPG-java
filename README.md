@@ -1,11 +1,11 @@
 # Game-RPG-java
 
-## 1 Latar Belakang
+## 1. Latar Belakang
 
 Latar belakang membuat game ini slain sebagai bagian penugasan dari mata kuliah praktikum dasar pemrograman, saya membuat game ini karena yang pertama saya menyukai game yang bertema kan rpg
 dari kesukaan saya bermain game rpg membuat saya menjadi penasaran dan ingin membuat sebuah program game rpg sendiri
 
-## 2 Deskripsi dan alur cerita dari game 
+## 2. Deskripsi dan alur cerita dari game 
 
 **Judul Game: "RealmSaga: Chronicles of Destiny"**
 
@@ -28,7 +28,7 @@ Petualangan mencapai puncaknya ketika pemain harus menghadapi bos akhir, musuh y
 4. **Tantangan Bos:** Pertarungan terakhir melawan bos yang menantang.
 5. **Grafis Sederhana:** Antarmuka pengguna yang bersahaja dengan fokus pada gameplay.
 
-## 3 Branding Game
+## 3. Branding Game
 
 A. Judul Game
 " RealmSaga: Chronicles of Destiny "
@@ -43,7 +43,7 @@ C. Genre
 Game ini bergenre RPG (role-playing game)
 RPG, atau Role-Playing Game, adalah genre game yang memungkinkan pemain mengambil peran karakter fiksi di dalam dunia yang diciptakan. Beberapa elemen umum dari game RPG melibatkan pengembangan karakter, perjalanan, dan seringkali cerita yang mendalam.
 
-## 4 User Story
+## 4. User Story
 
 Sebagai | Saya bisa | Sehingga | Prioritas
 ---|---|---|---
@@ -57,3 +57,75 @@ Pemain |mendapatkan senjata |dapat mengalahkan semua musuh | ⭐⭐⭐⭐
 Pemain |mendapatkan skill atau kemampuan baru |meningkatkan kemampuan karakter | ⭐⭐⭐
 Pemain | melihat grafis yang memukau, desain karakter yang indah, dan efek visual yang menakjubkan |sehingga pengalaman bermain menjadi lebih menarik | ⭐⭐⭐
 Pemain |ingin memiliki pilihan pengembangan karakter yang beragam, termasuk pemilihan keterampilan, senjata, dan atribut |meningkatkan gaya bermain pemain | ⭐⭐⭐⭐
+
+## 5. Desain user interface
+
+link...
+
+## 6. Flow chart dari algoritma yang digunakan di dalam game 
+
++---------------------+
+| Start Game          |
++---------------------+
+          |
+          v
++---------------------+
+| Display Main Menu   |
+|   - Start New Game  |
+|   - Load Game       |
+|   - Exit Game       |
++---------------------+
+          |
+          v
++---------------------+
+| Player Chooses:     |
+|   - Start New Game  |
++---------------------+
+          |
+          v
++---------------------+
+| Initialize Game:    |
+|   - Create Player   |
+|   - Set Initial     |
+|     Parameters      |
++---------------------+
+          |
+          v
++---------------------+
+| Main Game Loop      |
+| While Player Alive: |
+|   - Display Stats   |
+|   - Display Options |
+|   - Player Chooses  |
+|     Action          |
+|   - Process Action  |
+|   - Enemy Turn      |
+|   - Check Game Over |
++---------------------+
+          |
+          v
++---------------------+
+| Game Over           |
+|   - Display Result  |
+|   - Save Progress   |
+|   - Return to Main  |
+|     Menu            |
++---------------------+
+          |
+          v
++---------------------+
+| Exit Game           |
++---------------------+
+| End                 |
++---------------------+
+
+
+## 7. Link Demo Game 
+
+link...
+
+## 8. Kode Pemrograman Game 
+
+link...
+
+## 9. Prinsip Dasar Pemrograman 
