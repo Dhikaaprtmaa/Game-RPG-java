@@ -109,3 +109,86 @@ Method atau fungsi digunakan untuk mengorganisir dan mengelompokkan blok kode ya
 
 I. Class
 Class digunakan untuk mengorganisir kode ke dalam entitas yang terkait. Dalam game ini,  memiliki kelas untuk pemain, musuh, senjata, dan sebagainya.
+
+## Bagaimana konsep variable, data type dan operator pada bahasa pemrograman digunakan dalam pembuatan game ini ?
+
+Dalam pembuatan game ini, konsep variabel, tipe data, dan operator digunakan secara luas untuk mengelola informasi dan logika permainan. Berikut adalah beberapa contoh penggunaan konsep tersebut:
+Variabel:
+Variabel digunakan untuk menyimpan dan memanipulasi data yang berubah selama permainan. Beberapa contoh variabel yang dapat digunakan dalam game ini adalah:
+Player Variables:
+name: Menyimpan nama pemain.
+level: Menyimpan level pemain.
+experience: Menyimpan total pengalaman pemain.
+health: Menyimpan kesehatan pemain.
+damage: Menyimpan kekuatan serangan pemain.
+gold: Menyimpan jumlah emas yang dimiliki pemain.
+potions: Menyimpan jumlah potion yang dimiliki pemain.
+Enemy Variables:
+name: Menyimpan nama musuh.
+level: Menyimpan level musuh.
+currentHealth: Menyimpan kesehatan saat ini musuh.
+damage: Menyimpan kekuatan serangan musuh.
+Game State Variables:
+maxHealth: Menyimpan kesehatan maksimum yang dapat dimiliki pemain.
+weapon: Menyimpan senjata yang dimiliki pemain.
+currentEnemy: Menyimpan musuh yang sedang dihadapi pemain.
+gameOver: Menyimpan status apakah permainan sudah berakhir atau belum.
+Tipe Data:
+Tipe data digunakan untuk menentukan jenis nilai yang dapat disimpan dalam variabel. Beberapa contoh tipe data yang mungkin digunakan dalam game ini:
+String:
+Digunakan untuk menyimpan nama pemain, nama musuh, dan nama senjata.
+Integer:
+Digunakan untuk menyimpan nilai-level, experience, health, damage, gold, dan potion counts.
+Boolean:
+Digunakan untuk menyimpan status seperti gameOver.
+Object:
+Digunakan untuk menyimpan objek-objek kompleks seperti senjata (Weapon).
+Operator:
+Operator digunakan untuk melakukan operasi pada variabel dan nilai. Beberapa contoh operator yang digunakan dalam game ini:
+Aritmetika:
++, -, *, / digunakan untuk operasi matematika seperti penjumlahan, pengurangan, perkalian, dan pembagian.
+Penugasan:
+= digunakan untuk menugaskan nilai ke variabel.
+Perbandingan:
+==, !=, <, >, <=, >= digunakan untuk membandingkan nilai.
+Logika:
+&& (AND), || (OR), ! (NOT) digunakan untuk operasi logika.
+Increment/Decrement:
+++, -- digunakan untuk menambah atau mengurangkan nilai satu.
+
+## Bagaimana konsep boolean dan conditions pada bahasa pemrograman digunakan dalam pembuatan game ini ?
+
+Konsep boolean dan kondisi (conditions) sangat penting dalam pembuatan game ini untuk mengontrol alur permainan, mengambil keputusan, dan mengendalikan perilaku permainan berdasarkan situasi tertentu.
+
+Penggunaan kondisi dan nilai boolean sangat penting dalam memberikan dinamika pada game. Mereka memungkinkan game untuk merespons interaksi pemain, mengatur perubahan dalam game, dan memberikan pengalaman yang lebih menarik dan bervariasi kepada pemain.
+
+## Bagaimana konsep looping dan array pada bahasa pemrograman digunakan dalam pembuatan game ini ?
+
+Konsep looping dan array menjadi krusial dalam pembuatan game untuk melakukan iterasi melalui sejumlah data, mengatur perulangan, dan mengelola elemen-elemen seperti senjata, musuh, atau item.
+Konsep looping dan array memungkinkan pengembang game untuk mengelola dan memproses data secara efisien, membuat pengulangan melalui daftar musuh, senjata, atau elemen game lainnya. Hal ini juga memungkinkan fleksibilitas dalam menangani perubahan dinamis selama permainan berlangsung.
+
+## Bagaimana konsep method pada bahasa pemrograman digunakan dalam pembuatan game ini ?
+
+Konsep metode (method) dalam bahasa pemrograman digunakan dalam pembuatan game ini untuk mengorganisir dan memisahkan logika program ke dalam blok-blok kode yang dapat dipanggil dan digunakan Kembali
+Contoh nya method untuk menyerang musuh, method untuk serangan khusus, method untuk naik level dan masih banyak lagi
+
+## Bagaimana konsep class pada bahasa pemrograman digunakan dalam pembuatan game ini ?
+
+Konsep class pada bahasa pemrograman digunakan dalam pembuatan game ini untuk mengorganisir dan mengelompokkan berbagai entitas dan fungsionalitas yang terkait. Dalam game ini, ada beberapa class yang merepresentasikan entitas dan fitur-fitur dalam permainan.
+Contohnya class character, class enemy, player, weapon dan lain lain 
+
+## Jelaskan algoritma buatan sendiri yang digunakan pada pembuatan game ini !
+
+Pengembangan algoritma pada game yang dibuat melibatkan beberapa tahapan, terutama dalam mengatur logika pertarungan, mekanisme serangan, pemberian damage, dan manajemen status pemain dan musuh. Berikut adalah penjelasan lebih lanjut:
+Inisialisasi Karakter:
+
+Pada awalnya, pemain diminta untuk memasukkan nama karakter.
+Objek pemain (Player) dan musuh pertama (Character) dibuat dengan menggunakan input pengguna dan metode generateRandomEnemy().
+Pertarungan Berulang:
+
+Sebuah loop while digunakan untuk menjalankan pertarungan selama kesehatan pemain masih di atas 0 dan musuh belum dikalahkan.
+Pilihan Aksi Pengguna:
+
+Pemain diberikan opsi untuk memilih aksi (serang, serangan khusus, istirahat, gunakan potion) melalui pernyataan kondisional (switch).
+Setiap pilihan mengarah pada metode yang sesuai dalam class Player.
+Serangan Pemain:
