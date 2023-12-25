@@ -64,11 +64,23 @@ link...
 
 ## 6. Flow chart dari algoritma yang digunakan di dalam game 
 
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
+erDiagram
+    CUSTOMER ||--o{ ORDER : places
+    CUSTOMER {
+        string name
+        string custNumber
+        string sector
+    }
+    ORDER ||--|{ LINE-ITEM : contains
+    ORDER {
+        int orderNumber
+        string deliveryAddress
+    }
+    LINE-ITEM {
+        string productCode
+        int quantity
+        float pricePerUnit
+    }
 
 
 ## 7. Link Demo Game 
