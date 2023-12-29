@@ -76,6 +76,7 @@ flowchart TD;
 ## 7. Link Demo Game 
 
 [link...](https://drive.google.com/file/d/1Z5U_mAxQnG8rrUKOK4BK9DOM71M5SGC-/view?usp=drive_link)
+[penjelasan codingan](https://drive.google.com/file/d/1_FMRsrSkPIXsobya6KT3pwkz9Hxmq71C/view)
 
 ## 8. Kode Pemrograman Game 
 
